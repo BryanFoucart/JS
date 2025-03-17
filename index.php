@@ -11,7 +11,7 @@
 <body>
     <p id="text"></p>
 
-    <script src="./main.js"></script>
+    <script src="./coursP2.js"></script>
 </body>
 
 </html>
