@@ -26,4 +26,12 @@ export class Personnage {
   getForce() {
     return this.#force;
   }
+  getNom() {
+    return this.#nom;
+  }
+  toString() {
+    return `${this.#nom} a ${this.#pointsDeVies} points de vie et ${
+      this.#force
+    } de force. C'est un ${this.#categorie}`;
+  }
 }
