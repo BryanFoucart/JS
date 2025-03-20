@@ -1,0 +1,29 @@
+* {
+  scroll-behavior: smooth;
+}
+
+main {
+  min-height: 1500px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  place-content: center;
+}
+
+#show {
+  position: fixed;
+  width: 100%;
+  height: 5vh;
+  background: yellow;
+}
+
+a {
+  display: block;
+}
+
+a.perso {
+  text-decoration: none;
+  transform: scale(1, 5);
+  width: fit-content; /*prends la taille de l'élément */
+}
